@@ -20,6 +20,11 @@ public interface BinarySearchTree<T extends Comparable<T>> {
     int size();
 
     /**
+     * @return true if tree contains at least one element, false otherwise
+     */
+    boolean isEmpty();
+
+    /**
      * @return max. number of transition between root node and any other node; 0 - if tree is empty or contains 1 element
      */
     int depth();
